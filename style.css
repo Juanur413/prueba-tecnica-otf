@@ -23,11 +23,9 @@ nav {
     padding: 0;
     display: flex;
 }
-
 .menu li {
     margin-left: 0.8em;
 }
-
 .menu a h6{
     font-style: normal;
     font-weight: 700;
@@ -158,7 +156,6 @@ form{
     width: 309px;
     height: 423px;
 }
-
 form textarea{
     resize: none;
 }
@@ -185,7 +182,6 @@ form textarea{
     background-color: #F10A0A;
     border-radius: 30px;
 }
-
 .boton-submit:hover {
     background-color: white;
     border: 1px solid #F10A0A;
@@ -455,7 +451,6 @@ section.cards{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
     width: 368px;
     height: 562px;
 }
@@ -469,11 +464,12 @@ section.cards{
     justify-content: center;
     align-items: flex-start;
     padding: 30.5px 1.6em;
+    color:#4F4F4F;
 
     width: 320px;
-    height: 230px;
+    height: 275px;
 }
-.card-1 h4{
+.text-card h4{
     padding: 0 0 6px 0;
     font-style: normal;
     font-weight: 700;
@@ -483,9 +479,9 @@ section.cards{
     align-items: center;
     text-transform: uppercase;
 }
-.card-1 p{
+.text-card p{
     width: 320px;
-    height: 104px;
+    height: 150px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -531,7 +527,6 @@ section.cards{
     height: 500px;
 }
 .card-2 h3{
-    font-family: 'Gotham';
     font-style: normal;
     font-weight: 700;
     font-size: 35px;
@@ -572,12 +567,9 @@ footer{
     align-items: center;
     padding: 0px;
     gap: 20px;
-
-    position: absolute;
     width: 1366px;
     height: 307.47px;
     background-color: #3357F8;
-
     color: #fff;
 }
 footer div{
@@ -627,7 +619,29 @@ footer div{
     height: 1.6em;
 }
 
+/* footer-copy */
+footer.legal-policy{
+    width: 1366px;
+    height: 41px;
+    background: #A8A8A8;
+}
+.footer-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.legal, .copyright {
+    width: 122px;
+    height: 21px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #FFFFFF;
 
+}
 
 /* ----------------------------------------------------------------------------- */
 /* ----------------------------------------------------------------------------- */
