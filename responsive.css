@@ -1,0 +1,104 @@
+/* Estilos responsive */
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+        width: 20px;
+        height: 20px;
+    }
+    .menu{
+        display: none;
+    }
+    .social-media a{
+        justify-content: center;
+    }
+    .social-media a img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .form-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-info{
+        width: 100%;
+    }
+    .left-info-text{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 5em;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+    .info-img{
+        width: auto;
+        height: auto;
+        align-items: center;
+    }
+    .info-img img{
+        max-height:50%;
+    }
+
+
+    section.hero-video{
+        height: 780px;
+    }
+    .video-container{
+        padding: 1em;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-video{
+        display: flex;
+        justify-content: center;
+    }
+    .img-video img:nth-child(1){
+        width: 70%;
+        height: auto;
+    }
+    .img-video img:nth-child(2){
+        top: 160px;
+        left: 630px;
+    }
+
+
+    section.stadistics{
+        height: auto;
+    }
+    .stats-container{
+        flex-direction: column;
+    }
+
+
+    section.cards{
+        height: 1000px;
+    }
+    .card-container{
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+
+    }
+    .card-1, .card-2{
+        height: auto;
+    }
+
+
+    footer{
+        height: 430px;
+    }
+    .foot-container{
+        align-items: center;
+        height: auto;
+        flex-direction: column;
+    }
+    .logo-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
